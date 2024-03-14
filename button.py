@@ -1,4 +1,4 @@
-    from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
 btn = [
     [KeyboardButton(text="Category"), KeyboardButton(text="Profile")],
@@ -11,8 +11,8 @@ btnCat = [
     [KeyboardButton(text="Product 1"), KeyboardButton(text="Products 2")],
     [KeyboardButton(text="Product 3"), KeyboardButton(text="Products 4")],
     [KeyboardButton(text="⬅️Back⬅️")]
-
 ]
+
 
 catMenu = ReplyKeyboardMarkup(keyboard=btnCat, resize_keyboard=True)
 
