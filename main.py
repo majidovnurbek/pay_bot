@@ -21,6 +21,7 @@ async def start(message: Message):
     # # a = db.get_all_users()
     # await message.answer(f"{a.count()} ")
     await message.answer("Hello", reply_markup=menu)
+    await message.answer("salom Damir")
 
 
 @dp.message(F.text == "Category")
@@ -94,6 +95,7 @@ dp.message.register(successful_payment_4, F.successful_payment)
 async def main() -> None:
     bot = Bot(token=Token)
     await dp.start_polling(bot)
+
 
 
 if __name__ == '__main__':
