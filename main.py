@@ -22,6 +22,7 @@ async def start(message: Message):
     # await message.answer(f"{a.count()} ")
     await message.answer("Hello", reply_markup=menu)
     await message.answer("salom Damir")
+    await message.answer("salom damir")
 
 
 @dp.message(F.text == "Category")
