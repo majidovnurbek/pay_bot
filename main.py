@@ -88,8 +88,6 @@ dp.message.register(successful_payment_4, F.successful_payment)
 
 
 #############################################################################################
-@dp.message(F.text == "Support")
-async def back(message: Message):
 
 
 
