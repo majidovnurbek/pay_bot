@@ -23,6 +23,7 @@ async def start(message: Message):
     await message.answer("Hello", reply_markup=menu)
     await message.answer("salom Damir")
     await message.answer("salom damir")
+    await message.answer("salom nurbek")
 
 
 @dp.message(F.text == "Category")
